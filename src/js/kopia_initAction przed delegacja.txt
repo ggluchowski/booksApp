@@ -1,0 +1,30 @@
+/*
+  const initAction = function(){
+    // wybranie wszystkich obrazkow z klasa .book__image
+    const element = document.querySelectorAll(select.containerOf.image);
+    // petla po obrazkach i dodanie im nasluchiwania na podwojne klikniecie
+    for(let item of element){
+      console.log(item);
+      item.addEventListener('dblclick', function(e){
+        e.preventDefault();
+        // czy ok
+        const bookId = item.getAttribute(select.image.imageId);
+        // element klikniety, czy juz zawiera klase .favorite
+        const clicked = item.className == select.image.favorite;
+        // sprawdzanie warunku, jak TAK to usuwanie, NIE - dodanie
+        if(!clicked){
+          favoriteBooks.push(bookId);
+          item.classList.add('favorite');
+        } else {
+          // usuniecie klasy .favorite oraz id z tablicy
+          const indexItem = favoriteBooks.indexOf(bookId);
+          favoriteBooks.splice(indexItem,1);
+          item.classList.remove('favorite');
+        }
+      });
+
+    }
+
+
+  };
+*/
